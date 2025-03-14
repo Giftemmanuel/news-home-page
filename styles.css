@@ -109,8 +109,10 @@ hr {
 
 .hero-caption h1{
     color: hsl(240, 100%, 5%);
+    font-size: 40px;
     font-weight: 800;
     margin-right: -30px;
+    
 }
 
 .hero-caption2{
