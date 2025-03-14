@@ -110,10 +110,13 @@ hr {
 .hero-caption h1{
     color: hsl(240, 100%, 5%);
     font-weight: 800;
+    margin-right: -30px;
 }
 
 .hero-caption2{
-     padding-right: 10px; 
+     padding-right: 10px;
+      margin-left: -30px;   
+    
 }
 
 .hero-caption2 p{
@@ -126,9 +129,7 @@ hr {
     margin-right: -25px;
 }
 
-.hero-caption2 {
-    margin-left: -25px;
-}
+
 
 .hero-caption2 button{
  padding: 10px 20px;
@@ -186,6 +187,7 @@ hr {
 .bottom1 p{
   color:hsl(236, 13%, 42%) ;
   font-size: 13px;
+  line-height: 1.6
 }
 .bottom2 h1{
     color:hsl(5, 85%, 63%) ;
@@ -205,6 +207,7 @@ hr {
 .bottom2 p{
   color:hsl(236, 13%, 42%) ;
   font-size: 13px;
+  line-height: 1.6
 }
 .bottom3 h1{
     color:hsl(5, 85%, 63%) ;
@@ -224,6 +227,7 @@ hr {
 .bottom3 p{
   color:hsl(236, 13%, 42%) ;
   font-size: 13px;
+  line-height: 1.6;
 }
 
 .hamburger-menu{
