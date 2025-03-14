@@ -97,14 +97,14 @@ nav {
 .new p{
     color:  hsl(236, 13%, 42%);
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 hr {
-    border: none;  /* Remove default border */
-    height: 1px;   /* Thickness of the line */
-    background-color:hsl(236, 13%, 20%); /* Line color */
-    margin: 20px 0; /* Adds spacing above and below */
+    border: none;  
+    height: 1px;  
+    background-color:hsl(236, 13%, 20%); 
+    margin: 20px 0; 
 }
 
 .hero-caption h1{
@@ -148,20 +148,19 @@ hr {
    cursor: pointer;
 }
 .bottom1, .bottom2, .bottom3 {
-    display: flex; /* Enables horizontal layout */
-    align-items: stretch; /* Ensures the image fills the full height */
-    gap: 15px; /* Adds space between image and text */
+    display: flex; 
+    align-items: stretch; 
+    gap: 15px; 
     margin-top: 35px;
-     /* Optional: Add a background color for contrast */
-    padding: 15px; /* Optional: Adjust spacing */
+    padding: 15px; 
     font-size: 15px;
  
 }
 
 .bottom1 img, .bottom2 img, .bottom3 img {
-    width: 80px; /* Adjust as needed */
-    height: 100%; /* Keep aspect ratio consistent */
-    object-fit: cover; /* Ensures the image fills its area */
+    width: 80px;
+    height: 100%; 
+    object-fit: cover; 
  
 }
 
@@ -189,7 +188,7 @@ hr {
 .bottom1 p{
   color:hsl(236, 13%, 42%) ;
   font-size: 13px;
-  line-height: 1.5
+  line-height: 1.6;
 }
 .bottom2 h1{
     color:hsl(5, 85%, 63%) ;
@@ -209,7 +208,7 @@ hr {
 .bottom2 p{
   color:hsl(236, 13%, 42%) ;
   font-size: 13px;
-  line-height: 1.5
+  line-height: 1.6;
 }
 .bottom3 h1{
     color:hsl(5, 85%, 63%) ;
@@ -229,7 +228,7 @@ hr {
 .bottom3 p{
   color:hsl(236, 13%, 42%) ;
   font-size: 13px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .hamburger-menu{
@@ -242,7 +241,7 @@ hr {
 
 
 
-/* General Styles */
+
 header {
     padding: 20px 5%;
     background-color: white;
@@ -254,7 +253,7 @@ nav {
     align-items: center;
 }
 
-/* Logo */
+
 .logo img {
     height: 40px;
 }
@@ -289,7 +288,7 @@ nav {
     font-weight: 500;
 }
 
-/* Hover Effect */
+
 .navigation-links ul li a:hover {
     color: hsl(5, 85%, 63%);
 }

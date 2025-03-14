@@ -43,71 +43,71 @@
 }
 
 /* Mobile and Tablet Responsive Styles */
-@media (max-width: 1024px) { /* Tablet and Mobile Styles */
+@media (max-width: 1024px) { 
     .container {
         display: grid;
-        grid-template-columns: 1fr; /* Single column layout */
-        margin: 20px; /* Add margin to container */
+        grid-template-columns: 1fr; 
+        margin: 20px; 
     }
 
     .hero-image {
-        grid-column: 1/1; /* Hero image takes full width */
-        padding: 80px; /* Maintain padding size */
+        grid-column: 1/1;
+        padding: 80px; 
         background-size: cover;
     }
 
     .hero-caption {
-        grid-column: 1/1; /* Hero caption takes full width */
+        grid-column: 1/1;
         margin-top: 20px; 
        
     }
 
     .hero-caption2 {
-        grid-column: 1/1; /* Hero caption 2 takes full width */
+        grid-column: 1/1; 
         margin-top: 20px; 
         margin-left: 1px;
     }
 
     .new {
-        grid-column: 1/1; /* New section takes full width */
-        margin-top: 20px; /* Adds space between sections */
-        background-color: hsl(240, 100%, 5%); /* Maintain background color */
-        font-size: 25px; /* Keep font size */
-        padding: 30px 20px; /* Maintain padding */
+        grid-column: 1/1; 
+        margin-top: 20px; 
+        background-color: hsl(240, 100%, 5%); 
+        font-size: 25px; 
+        padding: 30px 20px; 
     }
 
     .bottom1, .bottom2, .bottom3 {
-        grid-column: 1/1; /* Each section takes full width */
+        grid-column: 1/1; 
         display: flex;
-        align-items: center; /* Align image and text vertically */
-        gap: 15px; /* Space between image and text */
-        margin-top: 20px; /* Adds space between sections */
+        align-items: center; 
+        gap: 15px; 
+        margin-top: 20px; 
        
     }
 
     .bottom1 img, .bottom2 img, .bottom3 img {
-        width: 100px; /* Keep image size */
-        height: auto; /* Maintain aspect ratio */
-        object-fit: cover; /* Ensure image doesn’t distort */
+        width: 100px; 
+        height: auto; 
+        object-fit: cover; 
     }
 
     .text-content {
         display: flex;
-        flex-direction: column; /* Stack text vertically */
+        flex-direction: column; 
     }
 
     .bottom1 h1, .bottom2 h1, .bottom3 h1 {
-        color: hsl(5, 85%, 63%); /* Title color */
+        color: hsl(5, 85%, 63%); 
     }
 
     .bottom1 h4, .bottom2 h4, .bottom3 h4 {
-        color: hsl(240, 100%, 5%); /* Heading color */
-        margin-bottom: 7px; /* Space below headings */
+        color: hsl(240, 100%, 5%); 
+        margin-bottom: 7px; 
     }
 
     .bottom1 p, .bottom2 p, .bottom3 p {
-        color: hsl(236, 13%, 42%); /* Text color */
-        font-size: 13px; /* Text size */
+        color: hsl(236, 13%, 42%); 
+        font-size: 13px; 
     }
     
 }
