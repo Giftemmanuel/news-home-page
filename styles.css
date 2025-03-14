@@ -1,0 +1,331 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+header {
+    padding: 20px 5%;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 50px;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    height: 40px; 
+}
+
+
+.navigation-links ul {
+    display: flex;
+    list-style: none;
+    gap: 30px; 
+}
+
+
+.navigation-links ul li a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navigation-links ul li a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+
+
+/* Main section */
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  
+  margin: 25px 180px;
+   gap: 25px;
+}
+
+
+.hero-image{
+    grid-column: 1/3;
+    padding: 110px;
+    background-image: url(assets/images/image-web-3-mobile.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+}
+
+.new{
+    grid-area: 1/3/3/4;
+    background-color: hsl(240, 100%, 5%);
+    
+   font-size: 25px;
+   padding: 30px 20px 30px 20px;
+}
+
+.new h3{
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 30px;
+}
+
+.new .bigger-text{
+    color:  hsl(36, 100%, 99%);
+    font-size: 15px;
+   font-weight: 700;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.new .bigger-text:hover{
+    color: hsl(35, 77%, 62%) ;
+}
+
+.new p{
+    color:  hsl(236, 13%, 42%);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+hr {
+    border: none;  /* Remove default border */
+    height: 1px;   /* Thickness of the line */
+    background-color:hsl(236, 13%, 20%); /* Line color */
+    margin: 20px 0; /* Adds spacing above and below */
+}
+
+.hero-caption h1{
+    color: hsl(240, 100%, 5%);
+    font-weight: 800;
+}
+
+.hero-caption2{
+     padding-right: 10px; 
+}
+
+.hero-caption2 p{
+    color:  hsl(236, 13%, 42%);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.hero-caption{
+    margin-right: -25px;
+}
+
+.hero-caption2 {
+    margin-left: -25px;
+}
+
+.hero-caption2 button{
+ padding: 10px 20px;
+ background-color: hsl(5, 85%, 63%) ;
+ font-size: 13px;
+ font-weight: 600;
+ margin-top: 20px;
+ border: none;
+ letter-spacing: 0.1em;
+}
+
+.hero-caption2 button:hover{
+   background-color: hsl(35, 77%, 62%);
+   cursor: pointer;
+}
+.bottom1, .bottom2, .bottom3 {
+    display: flex; /* Enables horizontal layout */
+    align-items: stretch; /* Ensures the image fills the full height */
+    gap: 15px; /* Adds space between image and text */
+    margin-top: 35px;
+     /* Optional: Add a background color for contrast */
+    padding: 15px; /* Optional: Adjust spacing */
+    font-size: 15px;
+    
+}
+
+.bottom1 img, .bottom2 img, .bottom3 img {
+    width: 80px; /* Adjust as needed */
+    height: 100%; /* Keep aspect ratio consistent */
+    object-fit: cover; /* Ensures the image fills its area */
+ 
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom1 h1{
+    color:hsl(5, 85%, 63%) ;
+    
+}
+
+.bottom1 h4{
+    color:  hsl(240, 100%, 5%);
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.bottom1 h4:hover{
+    color:  hsl(5, 85%, 63%);
+}
+
+.bottom1 p{
+  color:hsl(236, 13%, 42%) ;
+  font-size: 13px;
+}
+.bottom2 h1{
+    color:hsl(5, 85%, 63%) ;
+    
+}
+
+.bottom2 h4{
+    color:  hsl(240, 100%, 5%);
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.bottom2 h4:hover{
+    color:  hsl(5, 85%, 63%);
+}
+
+.bottom2 p{
+  color:hsl(236, 13%, 42%) ;
+  font-size: 13px;
+}
+.bottom3 h1{
+    color:hsl(5, 85%, 63%) ;
+    
+}
+
+.bottom3 h4{
+    color:  hsl(240, 100%, 5%);
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.bottom3 h4:hover{
+    color:  hsl(5, 85%, 63%);
+}
+
+.bottom3 p{
+  color:hsl(236, 13%, 42%) ;
+  font-size: 13px;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+
+
+
+
+
+
+/* General Styles */
+header {
+    padding: 20px 5%;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo img {
+    height: 40px;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close-menu {
+    display:none;
+}
+
+/* Navigation Links */
+.navigation-links {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-links ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navigation-links ul li a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Hover Effect */
+.navigation-links ul li a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    .navigation-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 60%;
+        height: 100vh;
+        background: white;
+        box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2);
+        transition: right 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+    }
+
+    .navigation-links ul {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 50px;
+    }
+
+    .navigation-links.active {
+        right: 0;
+    }
+
+    /* Close Button */
+    .close-menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
